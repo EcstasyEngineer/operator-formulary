@@ -5,27 +5,23 @@ suggestion, absorption, dissociation, relational influence, and design-time craf
 actually operate — derived from a first-principles extraction over a research
 corpus.
 
-### → **[Explore the interactive map](https://ecstasyengineer.github.io/operator-formulary/)**
+### → **[Browse the formulary](https://ecstasyengineer.github.io/operator-formulary/)**
 
-881 techniques, 35 families, 5 macroclasses, and 3,679 authored cross-reference
-edges — as a force-clustered graph you can zoom, search, and filter. Hovering a
-technique shows its mechanism and its discriminator. Light and dark. The fastest
-way in.
+981 techniques behind 192 named doors — drill door → technique → job/tell/example,
+with rarity heat marking the deep cuts. Light and dark. The fastest way in.
 
 ## What's here
 
-- **[The interactive map](https://ecstasyengineer.github.io/operator-formulary/)** —
-  the whole taxonomy as a navigable graph, rendered by [`index.html`](index.html)
+- **[The browser](https://ecstasyengineer.github.io/operator-formulary/)** —
+  doors-first navigation over the whole taxonomy, rendered by [`index.html`](index.html)
   from [`graph.json`](graph.json). Start here.
-- **[`v7_book.md`](v7_book.md)** — the taxonomy, browsable as one document.
-  881 techniques across 35 families in 5 macroclasses (suggestion, absorption,
-  dissociation, influence, craft). Each technique has a mechanism description, a
-  "when to reach for this" discriminator, a risk note, a falsifiable note on *why*
-  it works, worked examples, and a realization bank — the specific forms the
-  technique takes, kept losslessly under it.
+- **[`v8_book.md`](v8_book.md)** — the taxonomy, browsable as one document.
+  981 techniques across 192 named door groups. Each technique has a mechanism
+  description, positive "reach for this when…" routing prose, a falsifiable note on
+  *why* it works, safety/consent flags, worked examples, and its realization bank.
 - **[`graph.json`](graph.json)** — the same taxonomy as data: every technique as a
-  node (family, macroclass, risk, mechanism, discriminator) plus the authored
-  relation edges. Use it if you want to build your own views.
+  node (door, family, risk, mechanism, rarity heat) plus door definitions and the
+  certificated cross-reference edges. Use it if you want to build your own views.
 - **[`legacy/`](legacy/)** — earlier iterations: the v6.5 taxonomy (the prior
   human-authored version), its inventory, and its example files, kept for lineage.
 
